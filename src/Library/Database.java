@@ -17,10 +17,10 @@ public class Database {
 	private ArrayList<Borrowing> borrowings = new ArrayList<Borrowing>();
 	
 	
-	private File  usersfile = new File("C:\\Users\\evgin\\220513358_Evgin_Aydin\\LibraryManagementSystem\\data\\Users");
-	private File  booksfile = new File("C:\\Users\\evgin\\220513358_Evgin_Aydin\\LibraryManagementSystem\\data\\Books");
-	private File  ordersfile = new File("C:\\Users\\evgin\\220513358_Evgin_Aydin\\LibraryManagementSystem\\data\\Orders");
-	private File  borrowingsfile = new File("C:\\Users\\evgin\\220513358_Evgin_Aydin\\LibraryManagementSystem\\data\\Borrowings");
+	private File  usersfile = new File("YOUR FILE PATH FOR Users FILE");
+	private File  booksfile = new File("YOUR FILE PATH FOR Users FILE");
+	private File  ordersfile = new File("YOUR FILE PATH FOR Users FILE");
+	private File  borrowingsfile = new File("YOUR FILE PATH FOR Users FILE");
 	
 	public Database() {
 		if(!usersfile.exists()) {
